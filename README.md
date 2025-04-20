@@ -6,3 +6,6 @@ Description: This exercise demonstrates the usage of the __init__() method, whic
 
 📖 03_inheritance - Class Inheritance
 Description: This exercise focuses on class inheritance in Python, demonstrating how to create a base class and extend it with subclasses. The base class Animal is created, with a method make_sound(). The subclasses Dog and Cat inherit from Animal and override the make_sound() method to print specific sounds for each animal. The exercise highlights the power of inheritance in OOP, allowing code reuse and the ability to customize behavior in subclasses.
+
+📖 04_overriding - Method Overriding
+Description: This exercise demonstrates method overriding by modeling different payment methods in an online store. A base class PaymentMethod includes a generic pay() method. Three subclasses—CreditCardPayment, PayPalPayment, and CryptoPayment—override the pay() method to reflect their own payment processes. The exercise shows how overriding allows subclasses to provide specific implementations of a shared method, reinforcing the concept of polymorphism in OOP.
