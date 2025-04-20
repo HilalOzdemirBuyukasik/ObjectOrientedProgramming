@@ -9,3 +9,11 @@ Description: This exercise focuses on class inheritance in Python, demonstrating
 
 📖 04_overriding - Method Overriding
 Description: This exercise demonstrates method overriding by modeling different payment methods in an online store. A base class PaymentMethod includes a generic pay() method. Three subclasses—CreditCardPayment, PayPalPayment, and CryptoPayment—override the pay() method to reflect their own payment processes. The exercise shows how overriding allows subclasses to provide specific implementations of a shared method, reinforcing the concept of polymorphism in OOP.
+
+📖 05_encapsulation - Bank Account Management with Encapsulation
+Description:
+This exercise demonstrates the principle of encapsulation in object-oriented programming. A BankAccount class is created to simulate simple banking operations while ensuring that sensitive data (like the balance) is protected and only accessible through controlled methods.
+
+The balance is defined as a private attribute (__balance), and can only be accessed or modified through dedicated getter and setter methods. Additional methods such as deposit(), withdraw(), and transfer() are implemented with proper validation to ensure that all transactions are secure and logically correct.
+
+
