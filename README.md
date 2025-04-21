@@ -16,4 +16,7 @@ This exercise demonstrates the principle of encapsulation in object-oriented pro
 
 The balance is defined as a private attribute (__balance), and can only be accessed or modified through dedicated getter and setter methods. Additional methods such as deposit(), withdraw(), and transfer() are implemented with proper validation to ensure that all transactions are secure and logically correct.
 
-
+📖 06_abstraction - Bank Account with Abstraction
+Description: This exercise demonstrates the concept of abstraction in Python using an abstract class. An AbstractAccount class is defined with abstract methods such as get_balance(), set_balance(), deposit(), withdraw(), and transfer(). These methods are designed to be implemented in a subclass.
+The BankAccount class inherits from AbstractAccount and implements these methods to manage bank account operations like depositing, withdrawing, and transferring funds.
+This exercise emphasizes the importance of defining common interfaces using abstract classes while allowing concrete classes to implement the specific functionality. The goal is to demonstrate how abstraction helps in organizing and simplifying complex systems by hiding unnecessary details from the user.
